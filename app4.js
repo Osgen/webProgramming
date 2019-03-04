@@ -8,7 +8,6 @@ greet();
 // greetObj.greet();
 // greetObj.greeting = "Changed";
 
-
 //Reference to the same object
 // let greetObj2 = require("./greetOb.js");
 // greetObj2.greet();
