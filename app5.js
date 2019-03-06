@@ -33,11 +33,12 @@
 // });
 
 let Emitter =require("events");
+let eventConfig = require("./eventConfig").events;
 //EMITTER
 
 let emt = new Emitter();
 
-emt.on("greet", function(){
+emt.on(eventConfig.GREET, function(){
     console.log("Someone said: 'hey boy'");
 });
 
